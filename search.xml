@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>First Page</title>
+      <link href="/2023/11/09/First-Page/"/>
+      <url>/2023/11/09/First-Page/</url>
+      
+        <content type="html"><![CDATA[<h1 id="This-is-my-first-Page"><a href="#This-is-my-first-Page" class="headerlink" title="This is my first Page;"></a>This is my first Page;</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p code red'>python</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 嵌入式 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
