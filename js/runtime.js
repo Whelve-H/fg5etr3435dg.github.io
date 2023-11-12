@@ -19,8 +19,9 @@ function createtime() {
   let c = "";
   (c =
     s < 18 && s >= 9
-      ? `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 不要因为没有掌声而丢掉梦想.</div>`
-      : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 愿你来生之路上,玫瑰热烈绽放!</div>`),
+      ? `<img class='boardsign' src='https://img.shields.io/badge/%E5%B0%8F%E9%BB%84%E5%90%8C%E5%AD%A6-%E7%A7%91%E7%A0%94%E6%91%B8%E9%B1%BC%E4%B8%AD%F0%9F%90%9F-blue?style=flat&logo=1001tracklists' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:16px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i  id="heartbeat" class='fas fa-heartbeat' style='font-size: 24px;'></i> <br><div style='font-size: 18px;font-family: 'mac', sans-serif;'> Don't lose your dreams just because there's no applause.</div>`
+      : `<img class='boardsign' src='https://img.shields.io/badge/%E5%B0%8F%E9%BB%84%E5%90%8C%E5%AD%A6-%E7%A7%91%E7%A0%94%E6%91%B8%E9%B1%BC%E4%B8%AD%F0%9F%90%9F-blue?style=flat&logo=1001tracklists' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:16px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i heartbeat" class='fas fa-heartbeat' style='font-size: 24px;'></i> <br> <div style='font-size: 18px;'mac', sans-serif;'>
+      May the roses bloom warmly on your way to the next life!</div>`),
     document.getElementById("workboard") &&
       (document.getElementById("workboard").innerHTML = c);
 }
